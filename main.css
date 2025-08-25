@@ -16,13 +16,17 @@ p {
   font-size: 14px;
   font-family: Arial;
 }
-th, td {
- padding: 8px;
- text-align: left;
- border-bottom: 1px solid #ddd
- font-family: Arial
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd font-family: Arial
 }
-tr:nth-child(odd) {background-color: #f2f2f2;}
+
+tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
 
 /* remove default page margins so the header touches edges */
 body {
@@ -35,4 +39,3 @@ body {
   text-align: right;
   padding: 12px;
 }
-
